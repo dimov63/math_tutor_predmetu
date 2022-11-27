@@ -1,0 +1,180 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+ body {
+    
+    /* font-family: "Raleway", "Arial", sans-serif; */
+} 
+
+.main{
+    /* width: 375px; */
+    background-color: #2B9976;
+    box-sizing: border-box;
+    font-family: "Raleway", "Arial", sans-serif;
+    /* background: linear-gradient(to bottom, #2B9976, rgba(41, 131, 102, 0)); */
+
+}
+.header-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between; 
+    
+}
+.menu-bar{
+    margin-top: 21px;
+    margin-left: 14px;
+}
+.img-menu-bar{
+    height: 15px;
+    width: 20px;
+    
+}
+.bottom-line{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.first{
+width:20px;
+margin-bottom: 7px;
+}
+
+.second {
+    width: 9px;
+    margin-bottom: 7px;
+}
+
+.thirt {
+width:16px;
+}
+
+.logo-block{
+    margin-top:11px;
+    margin-bottom: 7px;
+    display: flex;
+    position: relative;
+    
+}
+.logo-mob-img{
+height: 49px;
+}
+
+.logo-name{
+position: absolute;
+bottom: 10px;
+text-transform: uppercase;
+font-style: oblique;
+text-decoration: none;
+color: white;
+font-size: 12px;
+margin-left: 5px;
+}
+
+   
+
+.language{
+    text-transform:uppercase;
+    margin-top: 31px;
+    margin-right: 14px;
+    color: white;
+   
+}
+.lang-name{
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+   
+}
+.arrow{
+    margin-left: 2px;
+    height: 6px;
+    line-height: 4px;
+}
+
+.arrow i:before {
+    font-size: 7px;
+    
+}
+
+.line-header{
+    width: 100%;
+    border-bottom: 0.5px solid #FFFFFF;
+}
+
+.tutor{
+    margin: 12px auto 14px auto;
+   
+
+} 
+.tutor h1{
+    font-size: 24px; 
+    line-height: 28px;
+    color:#FFFFFF;
+    font-weight:800;
+    text-align: center;
+}
+.giphy1{
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto 21px auto;
+    border: none;
+}
+.quote{
+   display:grid;
+   grid-template-columns: 5fr 6fr 6fr;
+   align-items:center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.title-quote{
+    padding-left:26px;
+}
+ .direction{
+    padding-left:10px;
+    margin-bottom: 0px;
+} 
+.arrow-text{
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+
+
+.arrow-right{
+    width: 108px;
+    height: 8px;
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.arrow-right::before,
+.arrow-right::after {
+    content: '';
+    position: absolute;
+}
+
+.arrow-right::before{
+    width: 108px;
+    height: 1px;
+    background-color: white;
+    top: -3.5px;
+}
+
+.arrow-right::after {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(45deg);
+    width: 5px;
+    height: 5px;
+    top: -5.8px;
+    left: 103px;
+}
+.text-quote{
+    margin-top: 7px;
+}
