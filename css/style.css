@@ -182,134 +182,63 @@ margin-left: 5px;
 /* CREATE REGISTRATION_FORM */
 
 
-.wrapper_form {
-    display: flex;
-    align-content: center;
-    width: 375px;   
-    height: 768px;
-   }
-/* .container {
-   height: 100%;
-   overflow: hidden;
-   min-height: 100%;
-   padding: 35px;
-} */
+.main_form {
+  margin: 0;
+  padding: 0;
+  margin-top: 2472px;
+  width: 375px;
+}
+.row_form {
+  display: flex;
+  width: 375px;
+  margin: 0;
+  padding: 0;
+}
 .container_form {
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   background-color:#65A6CB;
-   width: 375px;
-   height: 3369px;   
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #65a6cb;
+  height: 369px;
 }
 .forma {
-   display: flex;
-   width: 90%;
-   height: 53px;
-   flex-direction: column;
-   align-content: center;
-  }
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 90%;
+  height: 53px;
+  flex-direction: column;
+}
 .forma_h2 {
-   font-family: Raleway;
-   font-size: 24px;
-   font-weight: 700;
-   color: #FFFFFF;
-   text-align: center;
-   vertical-align: top;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: top;
 }
 .login {
-   width: 100%;
-
+  width: 100%;
 }
-.login input[type= "name"],
-.login input[type= "post"],
-.login input[type= "phone"],
-.login input[type= "dateTime"] {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
-   align-items: center;
-   width: 80%;
-   height: 48px;
-   background-color: #E7E7E7;
-   margin: 11px auto;
-   border: 1px solid #E7E7E7;
-   border-radius: 10px;
-   font-family: Raleway;
-   font-size: 12px;
-   color: #FFFFFF;
-   padding: 0 20px;
-}
-.login input[type="submit"] {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
-   align-items: center;
-   justify-content: center;
-   background-color: #65A6CB;
-   width: 60%;
-   height: 47px;
-   border: 2px solid #FFFFFF;
-   margin: 11px auto;
-   font-family: Raleway;
-   font-weight: bold;
-   font-size: 12px;
-   text-align: center;
-   color: #FFFFFF;
-   padding: 20px auto;
-}
-
-   
-.forma {
-   display: flex;
-   width: 190px;
-   height: 53px;
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-  }
-.forma_h2 {
-   font-family: Raleway;
-   font-size: 24px;
-   font-weight: 700;
-   color: #FFFFFF;
-   text-align: center;
-   vertical-align: top;
-}
-.login {
-}
-.login input[type= "name"],
-.login input[type= "post"],
-.login input[type= "phone"],
-.login input[type= "dateTime"] {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
-   align-items: center;
-   /* width: 226px;
-   height: 48px; */
-   background-color: #E7E7E7;
-   margin: 11px 0;
-   border: 1px solid #E7E7E7;
-   border-radius: 10px;
-   font-family: Raleway;
-   font-size: 12px;
-   color: #FFFFFF;
-   padding: 0 20px;
-}
-.login input[type="submit"] {
-   background-color: #65A6CB;
-   width: 153px;
-   height: 47px;
-   border: 2px solid #FFFFFF;
-   margin: 11px 31px;
-   font-family: Raleway;
-   font-weight: bold;
-   font-size: 12px;
-   text-align: center;
-   color: #FFFFFF;
-   padding: 10px 42px;
+.login input[type="name"],
+.login input[type="post"],
+.login input[type="phone"],
+.login input[type="dateTime"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 80%;
+  height: 48px;
+  background-color: #e7e7e7;
+  margin: 11px auto;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  font-family: Raleway;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 20px;
 }
